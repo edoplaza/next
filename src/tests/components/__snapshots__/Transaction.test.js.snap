@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Transaction correctly 1`] = `
+<li
+  className="transaction"
+>
+  <table
+    className="transaction__table"
+  >
+    <tbody>
+      <tr>
+        <th>
+          description:
+        </th>
+        <td />
+      </tr>
+      <tr>
+        <th>
+          amount:
+        </th>
+        <td>
+          <span>
+             €
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <th>
+          Date:
+        </th>
+        <td>
+          May 18, 2018
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</li>
+`;

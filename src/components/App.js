@@ -22,6 +22,9 @@ class App extends React.Component {
           balance: response.data.account.balance,
           transactions: response.data.transactions
         })
+      })
+      .catch( error => {
+        alert(error)
       });
   }
   render() {
