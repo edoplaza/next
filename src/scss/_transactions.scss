@@ -1,0 +1,22 @@
+.transactions{
+  background: $gray-light;
+  height: 100vh;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  &__title{
+    font-size: 3.4rem;
+    margin-bottom: 3rem;
+  }
+  &__inner{
+    padding: 3rem 0;
+  }
+  &__list{
+    width: 100%;
+     padding: 0;
+     overflow-y: scroll;
+     max-height: 600px;
+     max-width: 700px;
+     margin: 0 auto;
+  }
+}

@@ -1,0 +1,21 @@
+.transaction{
+  background: white;
+  border: 1px solid darken($gray-light, 10%);
+  margin: 0 auto 3rem auto;
+  padding: 2rem;
+  max-width: 700px;
+  width: 80%;
+  &__table{
+    border-collapse: collapse;
+    text-align: left;
+    td, th{
+      font-size: 18px;
+      padding: 0.5rem 2rem;
+    }
+    th{
+      border-right: 1px solid darken($gray-light, 20%);
+      text-transform: capitalize;
+      width: 30%;
+    }
+  }
+}
